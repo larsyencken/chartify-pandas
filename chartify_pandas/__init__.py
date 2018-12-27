@@ -9,6 +9,11 @@ __version__ = '0.1.0'
 import pandas as pd
 import chartify
 
+# TODO
+# - support datetime plots
+# - color bar plots by default
+# - add horizontal bar plots
+
 
 class NotebookChart(chartify.Chart):
     def _ipython_display_(self) -> None:
